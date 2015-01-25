@@ -40,7 +40,7 @@ dependencies {
 
     /* Robolectric */
     /*
-       androidTestCompileに含めるとconnectedAndroidTesでテストを実行できなくなってしまったので
+       androidTestCompileに含めるとconnectedAndroidTestでテストを実行できなくなってしまったので
        testCompileにしている
     */
     testCompile('junit:junit:4.12') {

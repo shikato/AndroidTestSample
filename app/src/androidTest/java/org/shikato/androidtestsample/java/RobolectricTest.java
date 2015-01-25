@@ -1,4 +1,7 @@
 /*
+ // androidTestCompile時の都合上コメントアウトされています。。。
+ // Robolectricのテストを試す場合はコメントアウトを外してください
+ 
  package org.shikato.androidtestsample.java;
 
 import org.junit.After;
