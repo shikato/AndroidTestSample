@@ -1,0 +1,2 @@
+# AndroidTestSample
+Androidのテスティングフレームワークを試すためのアプリ
