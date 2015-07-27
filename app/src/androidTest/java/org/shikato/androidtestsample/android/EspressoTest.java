@@ -25,9 +25,8 @@ public class EspressoTest {
     private Activity mActivity;
 
     @Rule
-    public ActivityTestRule<TopActivity> mActivityRule = new ActivityTestRule<>(
-            TopActivity.class);
-
+    public ActivityTestRule<TopActivity> mActivityRule =
+            new ActivityTestRule<>(TopActivity.class);
 
     @Before
     public void setUp() {
