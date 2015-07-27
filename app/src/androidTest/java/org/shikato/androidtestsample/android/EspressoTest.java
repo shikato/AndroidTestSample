@@ -30,12 +30,14 @@ public class EspressoTest {
 
 
     @Before
-    public void setUp(){
+    public void setUp() {
+        // Activityの取得
         mActivity = mActivityRule.getActivity();
     }
 
+    // @Testが使えるので日本語でテストメソッドが書けるようになった
     @Test
-    public void 足し算機能の確認() {
+    public void 足し算機能の基本的な挙動() {
         // 数字入力
         onView(ViewMatchers.withId(R.id.num1)).perform(typeText("2"));
         onView(withId(R.id.num2)).perform(typeText("20"));
@@ -47,5 +49,4 @@ public class EspressoTest {
         onView(withId(R.id.result)).check(matches(withText("22")));
     }
 }
-
 
