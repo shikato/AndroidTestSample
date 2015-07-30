@@ -1,7 +1,7 @@
 /*
- // androidTestCompile‚Ì“s‡ãƒRƒƒ“ƒgƒAƒEƒg‚³‚ê‚Ä‚¢‚Ü‚·BBB
- // Robolectric‚ÌƒeƒXƒg‚ğ‚·ê‡‚ÍƒRƒƒ“ƒgƒAƒEƒg‚ğŠO‚µ‚Ä‚­‚¾‚³‚¢
- 
+ // androidTestCompileæ™‚ã®éƒ½åˆä¸Šã‚³ãƒ¡ãƒ³ãƒˆã‚¢ã‚¦ãƒˆã•ã‚Œã¦ã„ã¾ã™
+ // Robolectricã®ãƒ†ã‚¹ãƒˆã‚’è©¦ã™å ´åˆã¯ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ã‚¦ãƒˆã‚’å¤–ã—ã¦ãã ã•ã„
+
  package org.shikato.androidtestsample.java;
 
 import org.junit.After;
